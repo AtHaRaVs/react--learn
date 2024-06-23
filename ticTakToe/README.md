@@ -2,16 +2,9 @@
 
 A simple implementation of the classic Tic Tac Toe game using React.
 
-## Table of Contents
+![image](https://github.com/AtHaRaVs/react--learn/assets/99896281/7941c960-a3a1-4c2a-8a3b-6995d6b7c091)
+![image](https://github.com/AtHaRaVs/react--learn/assets/99896281/cead3937-ab23-41d6-9401-8c32899febe3)
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
