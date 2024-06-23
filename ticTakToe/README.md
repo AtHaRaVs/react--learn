@@ -26,7 +26,7 @@ This project is a simple web-based Tic Tac Toe game built with React. It allows 
     ```
 2. Navigate to the project directory:
     ```bash
-    cd react--learn/ticTakToe
+    cd ticTakToe
     ```
 3. Install the required dependencies:
     ```bash
