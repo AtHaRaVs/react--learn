@@ -37,4 +37,4 @@ This project is a simple web-based Tic Tac Toe game built with React. It allows 
 
 Run the Tic Tac Toe game locally:
 ```bash
-npm start
+npm run dev
