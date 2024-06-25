@@ -1,57 +1,55 @@
 import Result from "./result";
-import { useState } from "react";
 
-export default function InvestmentInput() {
-  const { userInput, setUserInput } = useState({
-    initialInvestment: 10000,
-    annualInvestment: 1200,
-    expectedReturn: 6,
-    duration: 10,
-  });
-
-  function handleChange(inputIdentifier, newValue) {
-    setUserInput((prevInput) => {
-      return {
-        ...prevInput,
-        [inputIdentifier]: newValue,
-      };
-    });
-  }
-
+export default function InvestmentInput({ onChange, userInput }) {
   return (
     <>
       <section id="user-input">
         <div className="input-group">
           <p>
-            <label>INITIAL INVESTMENT</label>
+            <label>Initial Investment</label>
             <input
               type="number"
               required
               value={userInput.initialInvestment}
               onChange={(event) =>
-                handleChange("initialInvestment", event.target.value)
+                onChange("initialInvestment", event.target.value)
               }
             />
           </p>
           <p>
-            <label>INITIAL INVESTMENT</label>
-            <input type="number" required />
+            <label>Annual Investment </label>
+            <input
+              type="number"
+              required
+              value={userInput.annualInvestment}
+              onChange={(event) =>
+                onChange("annualInvestment", event.target.value)
+              }
+            />
           </p>
         </div>
         <div className="input-group">
           <p>
-            <label>INITIAL INVESTMENT</label>
-            <input type="number" required />
+            <label>Expected Return</label>
+            <input
+              type="number"
+              required
+              value={userInput.expectedReturn}
+              onChange={(event) =>
+                onChange("expectedReturn", event.target.value)
+              }
+            />
           </p>
-
           <p>
-            <label>INITIAL INVESTMENT</label>
-            <input type="number" required />
+            <label>Duration</label>
+            <input
+              type="number"
+              required
+              value={userInput.duration}
+              onChange={(event) => onChange("duration", event.target.value)}
+            />
           </p>
         </div>
-      </section>
-      <section>
-        <Result />
       </section>
     </>
   );
