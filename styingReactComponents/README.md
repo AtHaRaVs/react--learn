@@ -1,5 +1,5 @@
 
-![image](https://github.com/AtHaRaVs/react--learn/assets/99896281/866f9cd8-9c24-4cd2-8644-57f83d33f11c)![image](https://github.com/AtHaRaVs/react--learn/assets/99896281/4807c3fb-b238-4f44-aeed-236001382036)
+![image](https://github.com/AtHaRaVs/react--learn/assets/99896281/5dc3d2f4-dd0c-4f46-9f71-4666b0aa4dd2)
 
 # React App with Tailwind CSS, Styled-Components, and Vanilla CSS
 
