@@ -32,5 +32,7 @@ Ensure you have the following installed before starting:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-countdown-timer-game.git
-   cd react-countdown-timer-game
+   git clone https://github.com/AtHaRaVs/react--learn/tree/main
+   cd countDown
+   npm i
+   npm run dev
