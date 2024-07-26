@@ -3,11 +3,11 @@ import Input from "./Input";
 
 const NewProject = () => {
   return (
-    <div className="w-[35rem] mt-16">
+    <div className="w-[60rem] mt-16 mx-auto">
       <menu className="flex items-center justify-end gap-4 my-4">
         <li>
           <button className="tracking-wider text-stone-800 hover:text-stone-950 ">
-            Cancle
+            Cancel
           </button>
         </li>
         <li>
