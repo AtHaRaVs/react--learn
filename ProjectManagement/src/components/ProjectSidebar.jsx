@@ -10,7 +10,7 @@ const ProjectSidebar = ({ onStartAddProject, projects }) => {
       <div>
         <Button onClick={onStartAddProject}>+ Add Project</Button>
       </div>
-      <ul>
+      <ul className="mt-8">
         {projects.map((project) => {
           return (
             <li key={project.id}>
