@@ -26,7 +26,7 @@ const NewProject = ({ onAdd, onCancle }) => {
     onAdd({
       title: enteredTitle,
       desc: enteredDesc,
-      enteredDueDate: enteredDueDate,
+      dueDate: enteredDueDate,
     });
   }
 
