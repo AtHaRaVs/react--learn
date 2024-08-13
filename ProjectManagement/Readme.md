@@ -17,7 +17,7 @@ A simple project management app built with React. This application allows users 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AtHaRaVs/react--learn/tree/main/ProjectManagement
+   git clone https://github.com/AtHaRaVs/react--learn/tree/main
    cd ProjectManagement
    npm i
    npm run dev
