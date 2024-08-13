@@ -1,8 +1,9 @@
 # Project Management App
-
-A simple project management app built with React. This application allows users to create and manage projects and tasks within each project.
 ![NPM](https://img.shields.io/badge/npm-v6.14.8-red.svg)
 ![React](https://img.shields.io/badge/react-v17.0.2-blue.svg)
+
+A simple project management app built with React. This application allows users to create and manage projects and tasks within each project.
+
 
 ## Features
 
