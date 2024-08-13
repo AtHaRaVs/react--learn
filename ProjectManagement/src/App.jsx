@@ -3,7 +3,6 @@ import NoProjectSelected from "./components/NoProjectSelected";
 import ProjectSidebar from "./components/ProjectSidebar";
 import { useState } from "react";
 import SelectedProject from "./components/SelectedProject";
-import NewTask from "./components/NewTask";
 
 function App() {
   const [projectState, setProjectState] = useState({
@@ -23,12 +22,19 @@ function App() {
 
       return {
         ...prevState,
-        task: [newTask, ...prevState.tasks],
+        tasks: [newTask, ...prevState.tasks],
       };
     });
   }
 
-  function handleDeleteTask() {}
+  function handleDeleteTask(id) {
+    setProjectState((prevState) => {
+      return {
+        ...prevState,
+        tasks: prevState.tasks.filter((task) => task.id !== id),
+      };
+    });
+  }
 
   function handleStartAddProject() {
     setProjectState((prevState) => {
@@ -109,6 +115,7 @@ function App() {
         onSelectProject={handleSelectProject}
         onStartAddProject={handleStartAddProject}
         projects={projectState.projects}
+        selectedProjectId={projectState.selectProjectStateId}
       />
       {content}
     </main>
